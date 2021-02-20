@@ -60,6 +60,8 @@ function* TimeOfDayParser() {
   const amOrPm = yield optional('am', 'pm');
   if (amOrPm === 'pm' && hours <= 11) {
     hours += 12;
+  } else if (amOrPm === 'am' && hours === 12) {
+    hours = 24;
   }
   return { hours, minutes };
 }
