@@ -1,6 +1,6 @@
 {
   "name": "soonerorlater",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Parse natural dates",
   "source": "src/index.ts",
   "main": "dist/soonerorlater.js",
