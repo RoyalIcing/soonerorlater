@@ -58,7 +58,7 @@ function* TimeOfDayParser() {
   let hours = yield ParseInt;
   const minutes = yield optional(MinutesSuffixParser);
   const amOrPm = yield optional('am', 'pm');
-  if (amOrPm === 'pm') {
+  if (amOrPm === 'pm' && hours <= 11) {
     hours += 12;
   }
   return { hours, minutes };
