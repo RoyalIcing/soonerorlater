@@ -14,6 +14,10 @@
 npm add soonerorlater
 ```
 
+- <https://unpkg.com/soonerorlater>
+- <https://cdn.skypack.dev/soonerorlater>
+- <https://esm.sh/soonerorlater>
+
 ## Examples
 
 ```javascript
