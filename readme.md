@@ -37,3 +37,8 @@ parse('Mondays and Thursdays at 9:30am to 10:30am');
 }
 */
 ```
+
+## Notes
+
+- Uses the library [parcook](https://github.com/RoyalIcing/parcook) for parsing.
+- TODO: support standard representations as result
