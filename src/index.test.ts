@@ -1,6 +1,6 @@
 import { parse } from "./index";
 
-test("parse()", () => {
+describe("parse()", () => {
   test.each([
     ['Monday', { weekdays: new Set(['monday']) }],
     ['Wednesday', { weekdays: new Set(['wednesday']) }],

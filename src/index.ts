@@ -1,4 +1,4 @@
-import { has, optional, parse as parseWith, ParseGenerator, ParseYieldable } from 'parcook';
+import { has, optional, parse as parseWith, ParseGenerator, ParseYieldable } from 'yieldparser';
 
 const whitespaceOptional = /^\s*/;
 
