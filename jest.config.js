@@ -1,5 +1,8 @@
 module.exports = {
   preset: 'ts-jest',
   testEnvironment: 'node',
-  transform: {}
+  transform: {
+    "^.+\\.jsx?$": "babel-jest"
+  },
+  setupFilesAfterEnv: ["./setupTests.js"] 
 };
